@@ -2,7 +2,7 @@ Package: srnadiff
 Type: Package
 Title: Finding differentially expressed unannotated genomic regions from RNA-seq
        data
-Version: 1.25.1
+Version: 1.26.0
 Date: 2024-10-28
 Authors@R: c(
     person("Zytnicki", "Matthias", email = "matthias.zytnicki@inra.fr",
