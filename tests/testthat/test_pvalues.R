@@ -1,6 +1,3 @@
-library(srnadiff)
-library(testthat)
-
 context("Checking the p-value methods")
 
 exp             <- srnadiffExample()

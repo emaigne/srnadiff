@@ -1,6 +1,3 @@
-library(srnadiff)
-library(testthat)
-
 context("Checking annotation import")
 
 dir     <- system.file("extdata", package="srnadiff", mustWork = TRUE)

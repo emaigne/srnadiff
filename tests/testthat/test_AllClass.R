@@ -1,6 +1,3 @@
-library(srnadiff)
-library(testthat)
-
 context("Checking class constructors")
 
 basedir    <- system.file("extdata", package="srnadiff", mustWork = TRUE)

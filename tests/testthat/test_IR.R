@@ -1,6 +1,3 @@
-library(srnadiff)
-library(testthat)
-
 context("Checking IR strategy")
 
 exp    <- srnadiffExample()
