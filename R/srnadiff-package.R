@@ -138,4 +138,4 @@
 #' @useDynLib srnadiff
 #'
 #' @keywords package
-NULL
+"_PACKAGE"
