@@ -112,12 +112,12 @@ The sample coverages can be plotted in various different forms as well
 as combinations thereof. Supported plotting types are:
 
 \describe{
-\item{}{\code{p:} simple dot plot.}
-\item{}{\code{l:} lines plot.}
-\item{}{\code{b:} combination of dot and lines plot.}
-\item{}{\code{a:} lines plot of the sample-groups average (i.e., mean)
+\item{\code{p:}}{ simple dot plot.}
+\item{\code{l:}}{ lines plot.}
+\item{\code{b:}}{ combination of dot and lines plot.}
+\item{\code{a:}}{ lines plot of the sample-groups average (i.e., mean)
         values.}
-\item{}{\code{confint:} confidence intervals for average values. In
+\item{\code{confint:}}{ confidence intervals for average values. In
         combination with \code{a} type.}
 }
 }
