@@ -24,7 +24,6 @@ Imports:
     Rcpp (>= 0.12.8),
     stats,
     methods,
-    devtools,
     S4Vectors,
     GenomeInfoDb,
     rtracklayer,
@@ -38,9 +37,7 @@ Imports:
     GenomicAlignments,
     grDevices,
     Gviz,
-    BiocParallel,
-    BiocManager,
-    BiocStyle
+    BiocParallel
 LinkingTo: Rcpp
 RoxygenNote: 7.3.2
 biocViews: ImmunoOncology, 

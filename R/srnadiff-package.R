@@ -117,7 +117,6 @@
 #'
 #' @import stats
 #' @import methods
-#' @import devtools
 #' @import S4Vectors
 #' @import GenomeInfoDb
 #' @import rtracklayer
@@ -131,8 +130,6 @@
 #' @import BiocParallel
 #' @import GenomicRanges
 #' @import Gviz
-#' @import BiocStyle
-#' @importFrom BiocManager version
 #' @importFrom Rcpp evalCpp
 #' @importFrom grDevices col2rgb
 #' @useDynLib srnadiff
