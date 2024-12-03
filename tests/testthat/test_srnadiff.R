@@ -23,7 +23,7 @@ test_that("Running with different minimum depth", {
 test_that("Running with different transition probabilities", {
     expP <- srnadiff(exp, segMethod="hmm",
                      useParameters=list(noDiffToDiff=0.5,diffToNoDiff=0.5))
-    expect_equal(length(ranges), 1)
+    expect_equal(length(regions(expP)), 16)
 })
 
 test_that("Running with different emission probabilities", {
