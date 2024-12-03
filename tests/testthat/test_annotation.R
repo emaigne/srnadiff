@@ -1,5 +1,3 @@
-context("Checking annotation import")
-
 dir     <- system.file("extdata", package="srnadiff", mustWork = TRUE)
 gtfFile <- file.path(dir, "Homo_sapiens.GRCh38.76.gtf.gz")
 gffFile <- file.path(dir, "mirbase21_GRCh38.gff3")

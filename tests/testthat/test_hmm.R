@@ -1,5 +1,3 @@
-context("Checking HMM strategy")
-
 object    <- srnadiffExample()
 parameters(object) <- srnadiffDefaultParameters
 counts    <- buildDataHmm(object)

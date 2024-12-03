@@ -1,14 +1,12 @@
-context("Checking plot")
-
 exp <- srnadiffExample()
 exp <- srnadiff(exp)
-plot <- plotRegions(exp, regions(exp, 0.05)[1])
 
 test_that("Running plot", {
-    expect_true(is.list(plot))
-    expect_equal(length(plot), 4)
-    expect_is(plot[[1]], "AnnotationTrack")
-    expect_is(plot[[2]], "GenomeAxisTrack")
-    expect_is(plot[[3]], "AnnotationTrack")
-    expect_is(plot[[4]], "DataTrack")
+    expect_error(myplot <- plotRegions(exp, regions(exp, 0.05)[1]), NA)
+    expect_true(is.list(myplot))
+    expect_equal(length(myplot), 4)
+    expect_is(myplot[[1]], "AnnotationTrack")
+    expect_is(myplot[[2]], "GenomeAxisTrack")
+    expect_is(myplot[[3]], "AnnotationTrack")
+    expect_is(myplot[[4]], "DataTrack")
 })

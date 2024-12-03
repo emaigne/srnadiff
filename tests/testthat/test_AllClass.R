@@ -1,5 +1,3 @@
-context("Checking class constructors")
-
 basedir    <- system.file("extdata", package="srnadiff", mustWork = TRUE)
 sampleInfo <- read.csv(file.path(basedir, "dataInfo.csv"))
 gtfFile    <- file.path(basedir, "Homo_sapiens.GRCh38.76.gtf.gz")

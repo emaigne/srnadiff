@@ -1,5 +1,3 @@
-context("Checking the p-value methods")
-
 exp             <- srnadiffExample()
 parameters(exp) <- srnadiffDefaultParameters
 

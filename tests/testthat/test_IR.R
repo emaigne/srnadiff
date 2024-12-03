@@ -1,5 +1,3 @@
-context("Checking IR strategy")
-
 exp    <- srnadiffExample()
 parameters(exp) <- srnadiffDefaultParameters
 ranges <- runIR(exp)
